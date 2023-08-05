@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text - Emoji</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+      />
+</head>
+<body>
+    <div id="main">
+        <div id="title">
+        <h1>Text</h1>
+        <h1 id="arrow"> &rarr; </h1>
+        <h1>Emoji</h1>
+
+
+        </div>
+        <div id="endec-div">
+            <h3 id="enc-btn">&#128274; Encrypt Text</h3>
+            <h3 id="dec-btn">&#128275; Decrypt Text</h3>
+        </div>
+        <div id="encryption">
+            <h5>1. Type a Message</h5>
+            <textarea placeholder="Write your message here !" name="" id="txtmsg" cols="30" rows="10"></textarea>
+            <h5>2. Set Password</h5>
+            <input placeholder="Eg. 1234" type="password" id="password">
+            <button id="encrypt-btn">&#128274; Encrypt Text</button>
+
+        </div>
+        <div id="decryption">
+            <h5>1. Enter Encrypted Emojis</h5>
+            <textarea placeholder="Write your message here !" name="" id="emomsg" cols="30" rows="10"></textarea>
+            <h5>2. Enter Password</h5>
+            <input placeholder="Eg. 1234" type="password" type="password" id="finalpassword">
+            <button id="decrypt-btn">&#128275; Decrypt Emoji</button>
+
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
